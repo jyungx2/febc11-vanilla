@@ -1,0 +1,20 @@
+meta {
+  name: 게시물 추가
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://11.fesp.shop/posts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "type": "test",
+    "title": "나홀로여행기",
+    "content": "사실 주말에 동네에서 놀았어요."
+  }
+  
+}
